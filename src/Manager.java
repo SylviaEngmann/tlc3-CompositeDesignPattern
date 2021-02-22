@@ -16,6 +16,6 @@ public class Manager implements Employee{
     @Override
     public void showEmployeeDetails()
     {
-        System.out.println(empId+" " +name);
+        System.out.println("Manager{id: " + empId + ", name: " + name + "}");
     }
 }

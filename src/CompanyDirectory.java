@@ -11,10 +11,12 @@ public class CompanyDirectory implements Employee
     @Override
     public void showEmployeeDetails()
     {
+        System.out.println("===");
         for(Employee emp:employeeList)
         {
             emp.showEmployeeDetails();
         }
+        System.out.println();
     }
 
     public void addEmployee(Employee emp)
